@@ -1,0 +1,80 @@
+#top_heading{
+    color: red;
+    padding-top: 50px;
+}
+
+#top_heading_text{
+    color: gray;
+    padding-top: 30px;
+}
+
+.red_box{
+    color: white;
+    margin-top: 10px;
+    background-color: red;
+    padding-bottom: 8px;
+    border-radius: 5px;
+}
+
+#bg_form{
+    min-height: 450px;
+    max-height: 660px;
+    width: 100%;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.winner_text{
+    margin-top: 10px;
+}
+
+#newyear{
+    height: 200px;
+    width: auto;
+    position: absolute;
+    top: 60px;
+    left: -40px;
+    z-index: 2;
+}
+
+#logo{
+    height: 200px;
+    width: auto;
+}
+
+.red{
+    color: red;
+}
+
+.form-group{
+    width: 100%;
+    margin-top: 40px;
+}
+
+.form-check{
+    margin-top: 30px;
+}
+
+#tnc{
+    text-align: left;
+}
+
+@media only screen and (max-width: 520px){
+    #newyear{
+        display: none;
+    }
+
+    #top_heading{
+        padding-top: 10px;
+    }
+
+    #tnc_heading{
+        font-size: 5vw;
+        font-weight: 700;
+    }
+
+    #tnc{
+        font-size: 1vw;
+    }
+}

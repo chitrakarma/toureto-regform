@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Toureto New Year Contest
+        </title>
+        <meta name="viewport" content="width=device-width, initial-sclae=1.0" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script> 
+        
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container-fluid text-center">
+            <div class="row">
+                <div class="col-md-2">
+                    <img src="logo1.png" id="logo"/>
+                </div>
+                <div class="col-md-8">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h1 id="top_heading">Toureto Travel - Free Air Ticket Contest</h1>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h5 id="top_heading_text">Chance to win 2 free return AIR CANADA air ticket to India from Canada.</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <img src="newyear.png" id="newyear"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="container">
+                    <div class="col-md-12">
+                        <h2 class="red_box">Register Now!</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="container" id="bg_form">
+                    <div class="row">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-3"></div>
+                                <div class="col-md-6">
+                                    <!-- the main form for the page will be here -->
+                                    <form action="sendMail.php" method="POST">
+                                        <div class="form-group">
+                                            <input type="text" placeholder="Your Name" class="form-control" name="full_name" required/>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="email" placeholder="Email Address"class="form-control" name="email_addr" required />
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="tel" placeholder="Phone Number"class="form-control" name="contact" required />
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" placeholder="City"class="form-control" name="city" required />
+                                        </div>
+                                        <div class="form-group form-check">
+                                            <label class="form-check-label">
+                                            <input class="form-check-input" type="checkbox" checked> Signup for Newsletter, Deals and Offers
+                                            </label>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                    </form>
+                                </div>
+                                <div class="col-md-3"></div>
+                            </div>
+                             
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="container">
+                    <div class="col-md-12">
+                        <h2 class="red_box winner_text">Winner will be announce on 31st Dec' 2018 </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="container">
+                    <div class="jumbotron">
+                        <div class="col-md-12">
+                            <div id="tnc">
+                                <h1 class="red text-center" id="tnc_heading">TERMS AND CONDITIONS</h1>
+                                <ul>
+                                    <li>
+                                        Eligibility: Participant must be resident of Canada
+                                    </li>
+                                    <li>
+                                        Contest Period: Begins at 12:01 AM EST Oct 25, 2018 and end at 6:00 PM EST Dec 31, 2018
+                                    </li>
+                                    <li>
+                                        How to register: Participant can only register by filling up form on this web page.
+                                    </li>
+                                    <li>
+                                        Prize: Two economy Class Air Canada Return Air Ticket
+                                    </li>
+                                    <li>
+                                        This contest is no way sponsored, endorsed or administered by Air Canada. Any questions, comments or complaints should be directed to Toureto Travel and not Air Canada.
+                                    </li>
+                                    <li>
+                                        Prize is not transferable and has no cash value
+                                    </li>
+                                    <li>
+                                        Black out dates to Travel 15 Dec - 15 Jan 15 July - 15 Sep
+                                    </li>
+                                    <li>
+                                        Claiming of Prizes: In order to be declared a winner and be able to claim a Prize, the Eligible Participant selected by the Judges will be contacted
+                                    </li>
+                                    <li>
+                                        He/she complies with the eligibility requirements
+                                    </li>
+                                    <li>
+                                        The contents of his/her Contest Entry is original and does not infringe any third party rights (e.g. image, photograph, etc. that are posted)
+                                    </li>
+                                    <li>
+                                        He/she has read the Contest rules and regulations and complies completely;
+                                    </li>
+                                    <li>
+                                        He/she accepts the Prize as awarded
+                                    </li>
+                                    <li>
+                                        He/she acknowledges the Contest Sponsor’s right to publish his/her picture, name and city of residence without compensation other than the Prize offered.
+                                    </li>
+                                </ul>                        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
